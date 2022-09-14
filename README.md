@@ -1,5 +1,5 @@
 # Meu repositório de exercicios
-# Trybe
+# Módulos Trybe
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Sadira Antonielle](LinkDoSeuLinkedinAqui)_ enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket:
 
