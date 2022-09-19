@@ -1,15 +1,15 @@
 h1, p {
     text-align: center;
-}
-
-li:hover {
-    background-color: aquamarine;
-}
-
-li:active {
-    color: brown;
-}
-
-ol, ul {
+  }
+  
+  li:hover {
+    background-color: green;
+  }
+  li:active {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+  
+  li {
     list-style: none;
-}
+  }
