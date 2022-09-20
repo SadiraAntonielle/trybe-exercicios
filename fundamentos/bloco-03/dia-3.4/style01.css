@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px;
+    font-size: 120%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#classificação {
+    text-align: center;
+}
+
+#menu {
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(58, 146, 228);
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a:hover {
+    color: white;
+    font-weight: 700;
+}
+
+#menu li a {
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+#foto-stomatopoda {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 600px;
+    margin-left: 24%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    text-align: justify;
+}
