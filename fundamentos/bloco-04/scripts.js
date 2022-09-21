@@ -9,3 +9,4 @@ console.log(birthCity);
 console.log(birthYear);
 console.log(birthYear);
 console.log(birthCity);
+console.log(birthCity);
