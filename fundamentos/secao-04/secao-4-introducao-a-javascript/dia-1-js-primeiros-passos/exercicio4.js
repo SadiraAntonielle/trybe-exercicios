@@ -1,9 +1,9 @@
 const a = 10;
 
-if(a > 11) {
+if(a > 0) {
     console.log("positive");
 } 
-else if(a < 9) {
+else if(a < 0) {
     console.log("negative");
 } else {
     console.log("zero");
