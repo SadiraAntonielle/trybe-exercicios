@@ -1,0 +1,21 @@
+import { nanoid } from 'nanoid';
+import copy from 'clipboard-copy';
+
+import "./style.css";
+
+
+
+const passwordBtnEl = document.querySelector('button');
+const displayPasswordEl = document.querySelector('h2');
+
+passwordBtnEl.addEventListener('click', () => {
+  const randomPassword = nanoid();
+  displayPasswordEl.innerHTML = randomPassword;
+});
+
+/* Utilizando o código apresentado no conteúdo, vamos implementar uma nova funcionalidade à aplicação. Ao clicar na senha gerada, a aplicação deverá copiar a senha para a área de transferência. Para isso, instale e utilize a biblioteca clipboard-copy. */
+
+displayPasswordEl.addEventListener('click', (event) => {
+  copy(event.target.innerHTML);
+  alert('Senha copiada!');
+});
