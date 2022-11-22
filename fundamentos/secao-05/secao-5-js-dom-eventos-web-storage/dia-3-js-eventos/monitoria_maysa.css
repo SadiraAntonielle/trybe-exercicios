@@ -1,0 +1,13 @@
+.flex {
+    display: flex;
+    align-items: center;
+  }
+  ​
+  .bg-color, .text-color {
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+  }
+  
